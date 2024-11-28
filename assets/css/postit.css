@@ -3,7 +3,7 @@ body {
 }
 
 .container{
-    margin: 50px;
+    margin: 80px;
     display: flex;
     justify-content: space-around;
     font-family: "Indie Flower", cursive;
@@ -28,35 +28,101 @@ div p {
 font-size: 1.8em;
 }
 
-#blu1 {
- background: linear-gradient(rgb(204, 204, 255) 0%, rgb(176, 176, 204) 75%, rgb(147 147 186) 93%)
- 
-}
-
-#blu2 {
-    background: linear-gradient(rgb(204, 204, 255) 0%, rgb(176, 176, 204) 75%, rgb(147 147 186) 93%)
-   }
-
+/*----------------------ANIMAZIONI POSTIT-------------------------*/
+/*POSTIT VERDI*/
 #verde1 {
     background: linear-gradient(rgb(204, 255, 204) 0%, rgb(184, 219, 184) 75%, rgb(146 180 146) 93%);
+    transform: rotate(10deg);
 }
+
+#verde1:hover{
+    transform: rotate(0deg)
+        scale(1.4, 1.4);
+        box-shadow:  0px 10px 30px rgba(0, 0, 0, 0.5);
+    }
 
 #verde2 {
     background: linear-gradient(rgb(204, 255, 204) 0%, rgb(184, 219, 184) 75%, rgb(146 180 146) 93%);
+    transform: rotate(-7deg);
+}
+
+#verde2:hover{
+    transform: rotate(0deg)
+        scale(1.4, 1.4);
+        animation-timing-function: linear;
+        box-shadow:  0px 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 #verde3 {
     background: linear-gradient(rgb(204, 255, 204) 0%, rgb(184, 219, 184) 75%, rgb(146 180 146) 93%);
+    transform: rotate(-10deg);
 }
+#verde3:hover{
+    transform: rotate(0deg)
+        scale(1.4, 1.4);
+        animation-timing-function: linear;
+        box-shadow:  0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/*POSTIT BLU*/
+
+#blu1 {
+ background: linear-gradient(rgb(204, 204, 255) 0%, rgb(176, 176, 204) 75%, rgb(147 147 186) 93%);
+ transform: rotate(5deg);
+}
+
+#blu1:hover{
+    transform: rotate(0deg)
+        scale(1.4, 1.4);
+        animation-timing-function: linear;
+        box-shadow:  0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+#blu2 {
+    background: linear-gradient(rgb(204, 204, 255) 0%, rgb(176, 176, 204) 75%, rgb(147 147 186) 93%);
+   transform: rotate(15deg);
+}
+
+#blu2:hover{
+    transform: rotate(0deg)
+        scale(1.4, 1.4);
+        animation-timing-function: linear;
+        box-shadow:  0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/*POSTIT GIALLI*/
 
 #giallo1{
     background: linear-gradient(rgb(255, 255, 204) 0%, rgb(239, 239, 129) 75%, rgb(178, 178, 95) 93%);
+    transform: rotate(5deg);
 }
 
+#giallo1:hover{
+    transform: rotate(0deg)
+        scale(1.4, 1.4);
+        animation-timing-function: linear;
+        box-shadow:  0px 10px 30px rgba(0, 0, 0, 0.5);
+}
 #giallo2{
     background: linear-gradient(rgb(255, 255, 204) 0%, rgb(239, 239, 129) 75%, rgb(178, 178, 95) 93%);
+    transform: rotate(4deg);
+}
+
+#giallo2:hover{
+    transform: rotate(0deg)
+        scale(1.4, 1.4);
+        animation-timing-function: linear;
+        box-shadow:  0px 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 #giallo3{
     background: linear-gradient(rgb(255, 255, 204) 0%, rgb(239, 239, 129) 75%, rgb(178, 178, 95) 93%);
+    transform: rotate(-15deg);
+}
+
+#giallo3:hover{
+    transform: rotate(0deg)
+        scale(1.4, 1.4);
+        animation-timing-function: linear;
+        box-shadow:  0px 10px 30px rgba(0, 0, 0, 0.5);
 }
